@@ -4,7 +4,7 @@ public class PositiveInteger{
         public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a positive integer");
+        System.out.println("Enter the product code");
         double n  = input.nextDouble();
 
         double positiveInteger = (n * (n + 1) / 2);
