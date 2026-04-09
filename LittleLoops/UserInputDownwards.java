@@ -8,7 +8,7 @@ System.out.println("Enter a number");
      int number = input.nextInt();
 
 System.out.println("The numbers are; ");
-  for (int i = number; i <= 1;){
+  for (int i = number; i > 0 ;){
 
   System.out.println(i);
   i = i- 1;
