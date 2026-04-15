@@ -17,7 +17,7 @@ public class PositiveInteger{
        }
     else{
      System.out.print("Error");
-// during compilation the computer evaluates the one in the bracket first
+
 
      }
 
