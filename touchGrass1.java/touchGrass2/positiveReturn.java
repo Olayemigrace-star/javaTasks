@@ -12,10 +12,10 @@ System.out.println("Enter the Second Number: ");
 int secondNumber = input.nextInt();
 
 int difference = (firstNumber -secondNumber);
-
+int product = (-) * difference;
 
 if(difference == -difference){
-System.out.println("-" + difference);
+System.out.println(product);
 }
 
 if(difference == + difference){
