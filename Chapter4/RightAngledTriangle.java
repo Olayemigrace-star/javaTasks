@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class negativePattern{
+public class RightAngledTriangle{
 public static void main(String[] args){
 Scanner input = new Scanner(System.in);
 
@@ -8,12 +8,15 @@ int userInput = input.nextInt();
         
 for(int number = 1;number<= userInput; number++){
             
-    for(int num = 1; num <= userInput; num++){
-        System.out.println();      
+    for(int num = 1; num <= number; num++){
+        System.out.print("*");      
     }
-    System.out.print("*");
+    System.out.println();
            
 }
 
 }
 }
+
+
+
