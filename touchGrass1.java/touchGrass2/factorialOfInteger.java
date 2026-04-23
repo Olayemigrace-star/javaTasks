@@ -8,11 +8,13 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter any integer: ");
 int number = input.nextInt();
 
+int product = 1;
+for(;number >= 1; number--)
 
-for(;number<= 1;)
-int product *= number;
-number--
-System.out.print(product);
+product = product * number;
+
+System.out.println(product);
+
 }
 
 
