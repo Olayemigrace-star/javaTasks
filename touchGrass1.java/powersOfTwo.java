@@ -6,8 +6,8 @@ Scanner input = new Scanner(System.in);
 System.out.print("Enter a power: ");
 int power = input.nextInt();
 
-for(int number = 1; number <= power; number++){
-int powerOfTwo = (int)Math.pow(2, number);
+//for(int number = 1; number <= power; number++){
+int powerOfTwo = (int)Math.pow(2, power);
 
 System.out.print(powerOfTwo + ", ");
 
