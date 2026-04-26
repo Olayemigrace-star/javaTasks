@@ -20,36 +20,54 @@ public class PizzaWahala{
         int pizza = input.nextInt();
 
 
-     int sapaSize = guest/4;
+     int sapaSize = guest / 4;
      int smallMoney = guest / 6;
      int bigBoys = guest / 8;
      int odogwu = guest / 12;
      
-        switch(pizza){
-        case 1:
-        System.out.println(2500 * sapaSize);
-        break;
-        case 2: 
-        System.out.println(2900 * smallMoney);
-        break;
-        case 3:
-        System.out.println(4000 * bigBoys);
-        break;
-        case 4:
-        System.out.println(5200 * odogwu);
-        break;
+     
+     int remainder;
+     int totalPrice;
+     
+     if (pizza == 1){
+     remainder = guest % 4;
+     totalPrice = 2500 * sapaSize;
+     System.out.println("You will buy " + sapaSize + "boxes of pizza");
+     System.out.println("After serving all your guest, you will be left with " + remainder + "slices");
+     System.out.println("The total amount you are paying is:  " + totalPrice);
+     }
+      
+      else if (pizza == 2){ 
          
+     remainder = guest % 6;
+     totalPrice = 2900 * smallMoney;
+     System.out.println("You will buy " + smallMoney + "boxes of pizza");
+     System.out.println("After serving all your guest, you will be left with " + remainder);
+     System.out.println("The total amount you are paying is:  " + totalPrice);
+     }
+              
+       else if (pizza == 3){ 
          
-              // remainder = guest % 4
-        
-        
-        
+     remainder = guest % 8;
+     totalPrice = 4000 * bigBoys;
+     System.out.println("You will buy " + bigBoys + "boxes of pizza");
+     System.out.println("After serving all your guest, you will be left with " + remainder + "slices");
+     System.out.println("The total amount you are paying is:  " + totalPrice);
+     }
+       
+        else if (pizza == 4){ 
+         
+     remainder = guest % 12;
+     totalPrice = 5200 * odogwu;
+     System.out.println("You will buy " + odogwu + "boxes of pizza");
+     System.out.println("After serving all your guest, you will be left with " + remainder + "slices");
+     System.out.println("The total amount you are paying is:  " + totalPrice); }
+     
         }
 
     
 
         
-        System.out.println();
-    }
+        
 }
 
