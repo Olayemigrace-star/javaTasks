@@ -53,7 +53,7 @@ public class PizzaWahala{
      System.out.println("You will buy " + bigBoys + "boxes of pizza");
      System.out.println("After serving all your guest, you will be left with " + remainder + "slices");
      System.out.println("The total amount you are paying is:  " + totalPrice);
-     }
+     } 
        
         else if (pizza == 4){ 
          
