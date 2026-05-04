@@ -3,7 +3,7 @@ public class sorted{
 public static void main(String[] args){
 
 int [] number = {2,3,7,9,20};
-        System.out.println(decreasing(reverseNumber[reverseCount]));
+        System.out.println(decreasing(int[] number));
     }
 
 public static int decreasing(int[] number){
@@ -24,5 +24,6 @@ public static int decreasing(int[] number){
             reverseNumber[reverseCount] = number[index];
             reverseCount++;
         }
+        return reverseNumber;
         }
         }

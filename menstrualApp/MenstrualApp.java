@@ -26,7 +26,7 @@ public class MenstrualApp{
         int flow = inputCollector.nextInt();  
 
         System.out.println("\n" + "What is the length of your cycle?");
-        int circleSpan = inputCollector.nextInt(); 
+       e int circleSpan = inputCollector.nextInt(); 
     
         cal.set(year,month,day);
 
