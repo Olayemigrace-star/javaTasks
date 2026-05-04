@@ -10,11 +10,16 @@
           for(int multiples = 1; multiples <= 5; multiples++)
           {
 
-           System.out.print((int) Math.pow(i, multiples) + " ");
+           System.out.print((int) Math.pow(i, multiples));
+         
           }
+          System.out.print(" ");
         }
+        
     }
+    System.out.println();
 }
+
 
 
 }

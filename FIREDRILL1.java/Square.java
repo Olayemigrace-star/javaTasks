@@ -18,7 +18,7 @@ square = extract * extract;
 System.out.println("The Square of the digits is " + square);
 
 }
-
+//for(integer = inpu; integer  > 0, integer/=10)
 
 
 

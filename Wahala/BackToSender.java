@@ -7,11 +7,11 @@ if (successfulDelivery < 50){
 
 payment = (successfulDelivery * 160) + 5000;
 }
-else if (successfulDelivery == 50 && successfulDelivery <= 59){
+else if (successfulDelivery >= 50 && successfulDelivery <= 59){
 
 payment = (successfulDelivery * 200) + 5000;
 }
-else if (successfulDelivery == 60 && successfulDelivery <= 69){
+else if (successfulDelivery >= 60 && successfulDelivery <= 69){
 
 payment = (successfulDelivery * 250) + 5000;
 }
@@ -24,9 +24,9 @@ return payment;
 }
 public static void main(String[] args){
 
-System.out.println(riderPayment(25));
+System.out.println(riderPayment(55));
 
-System.out.println(riderPayment(80));
+System.out.println(riderPayment(67));
 }
 
 
