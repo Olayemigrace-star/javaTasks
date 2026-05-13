@@ -1,8 +1,7 @@
 public class OshoFreePromoEngine{
 
-public static double discount(double totalPrice){
+public static double discount(double totalPrice, String promoCode){
 double discount = 0;
-String promoCode = "";
 
 if (totalPrice >= 5000 && totalPrice < 15000 && promoCode.toLowerCase().equalsIgnoreCase("STARTER10")){
 
