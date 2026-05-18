@@ -14,7 +14,7 @@ public class StandardDeviationTest{
     
     
     @Test
-    public void testToCheckForTheStandardDeviation(){
+    public void testToCheckForTheStandardDeviationValue(){
         double[] numbers = {28, 22, 15, 15, 20};
         double result = StandardDeviation.standardDeviation(numbers);
         double expected = 4.857983120596447;

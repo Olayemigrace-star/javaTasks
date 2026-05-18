@@ -5,23 +5,19 @@ public class TaskTwo{
 public static void main(String[] args){
 
 Scanner input = new Scanner(System.in);
-System.out.println("Enter a value: ");
-int scores = input.nextInt();
 
-int[] array = new int[9];
+int[] array = new int[10];
 
     for(int number = 0; number < array.length; number++){
     System.out.println("Enter a value: ");
-    scores = input.nextInt();
-    array[number] = scores;
-  //  System.out.print(array[number]);
-
-
+    int scores = input.nextInt();
+    //array[number] = scores;
 }
+
+
 for(int digit = 0; digit < array.length; digit++){
     System.out.println(array[digit]);
-    }
-//System.out.print(scores);
+}
   }  
 }
 
